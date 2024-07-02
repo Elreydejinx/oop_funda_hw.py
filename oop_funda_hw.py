@@ -30,6 +30,8 @@ class Event:
     def __init__(self, name, date):
         self.name = name
         self.date = date
-            
-            
     
+    def num_of_participants(self, num_participants):
+         self.num_participants = num_participants
+         
+            
