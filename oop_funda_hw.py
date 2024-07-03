@@ -27,11 +27,23 @@ Honda_fit.update_user()
 # Implement a method add_participant that increases the count and a method get_participant_count to retrieve the current count.
 # Code Example: Basic Event class without participant tracking.
 class Event:
+
+    participants = 0
+
     def __init__(self, name, date):
         self.name = name
         self.date = date
     
-    def num_of_participants(self, num_participants):
-         self.num_participants = num_participants
-         
+
+    def added_participant(self, amount):
+         Event.participants += amount
+
+guest_1 = Event('James Brown','01-23-2024')
+guest_2 = Event('Russell Crowe', '02-18-2024')
+guest_3 = Event('Naruto Uzimaki', '04-05-2024')
+
+
+guest_1.added_participant(2)
+print(guest_1.participants)
+
             

@@ -167,7 +167,7 @@ class SmartCameraPhone(SmartPhone):
         # super.init() - calls the init of the perent class and initializes any of those attributes
         super().__init__(model)
         self.camera_resolution = camera_resolution
-        
+
 
 # Polymorphism - the ablility of objects of different classes to respond to the same method call in theie
 # own unique ways - method overloading - repurposing methods  from an inherited class
@@ -187,7 +187,7 @@ class SmartCameraPhone(SmartPhone):
     
 #     def collect_gold(self, amount):
 #         Character.gold += amount # (self.gold) would override the class but the class would be s
-#         # shared accross a class
+#         shared accross a class
 
 # archer = Character('Legolas', 'Archer')
 # fighter = Character('Aragorn', 'Fighter')
