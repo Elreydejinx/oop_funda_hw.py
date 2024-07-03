@@ -46,4 +46,9 @@ guest_3 = Event('Naruto Uzimaki', '04-05-2024')
 guest_1.added_participant(2)
 print(guest_1.participants)
 
-            
+def get_participant_count(self, count):
+     Event.participants = count
+
+     for participant in Event:
+          if guest_1 > 0:
+               print(count)
